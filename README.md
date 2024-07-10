@@ -5,7 +5,7 @@
 
 1.修改 settings.gradle.kts的root name
 
-2.修改 fun name （玩家名字）
+2.修改 fun name （玩法名字）
 
 3.修改包名上的 example
 
