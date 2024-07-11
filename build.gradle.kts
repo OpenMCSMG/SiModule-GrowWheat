@@ -2,7 +2,7 @@ import java.io.IOException
 import java.net.URL
 import javax.net.ssl.HttpsURLConnection
 
-val funcName = "putfunname"
+val funcName = "growwheat"
 val group = "cn.cyanbukkit.${funcName}"
 val version = "0.1"
 val mainPlugin = "SiModuleGame"
@@ -28,7 +28,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly("org.spigotmc:spigot-api:1.8.8-R0.1-SNAPSHOT")
+    compileOnly("org.spigotmc:spigot-api:1.12.2-R0.1-SNAPSHOT")
     compileOnly("com.comphenix.protocol:ProtocolLib:4.8.0")
     compileOnly(fileTree("libs") { include("*.jar") })
 
