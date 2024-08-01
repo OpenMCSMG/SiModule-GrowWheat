@@ -11,7 +11,7 @@ data class Region(
     var z = NumberPair(pos1.blockZ, pos2.blockZ)
 
     // 根据方向获取头和尾部的Location
-    fun
+
 
 
 }

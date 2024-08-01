@@ -31,6 +31,7 @@ dependencies {
     compileOnly("org.spigotmc:spigot-api:1.12.2-R0.1-SNAPSHOT")
     compileOnly("com.comphenix.protocol:ProtocolLib:4.8.0")
     compileOnly(fileTree("libs") { include("*.jar") })
+    implementation("cn.nostmc.pixgame:SiModuleGame-API:24.7.4")
 
 }
 
